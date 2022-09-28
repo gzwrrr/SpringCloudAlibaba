@@ -10,8 +10,5 @@
         <module name="cloud-provider-payment-8001" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="cloudproviderpayment8001" target="12" />
-    </bytecodeTargetLevel>
   </component>
 </project>
