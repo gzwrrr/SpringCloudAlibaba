@@ -7,3 +7,23 @@ Zcloud-provider-payment-8001/src/main/java/com/gontoy/springcloud/mapper/Payment
 ecloud-provider-payment-8001/src/main/java/com/gontoy/springcloud/service/Impl/PaymentServiceImpl.java,5\0\50c1fb1104753a87c1920f9b69c29617111db167
 |
 Lcloud-api-commons/src/main/java/com/gontoy/springcloud/entities/Payment.java,4\c\4c2774555b34c23967382c41eb103efb3d728fc5
+Å
+Qcloud-api-commons/src/main/java/com/gontoy/springcloud/entities/CommonResult.java,6\d\6dee57acb8eb68e56c6cf48ff6e99b9acbd60b5c
+I
+cloud-api-commons/pom.xml,8\c\8cf05d42505ff49047085dd6dd68bf86e15d37a4
+O
+cloud-eureka-server7001/pom.xml,1\0\102e18b64a275ebd8dfa2168607577b0e641d1d7
+O
+cloud-eureka-server7002/pom.xml,6\9\69c2b01cc2ae9de37bc4bbb53c89f665afc20837
+|
+Lcloud-eureka-server7002/src/main/java/springcloud/EurekaApplication7002.java,2\c\2cba6e5f96a03b15ab906493902c22547a308735
+á
+Wcloud-eureka-server7001/src/main/java/com/gontoy/springcloud/EurekaApplication7001.java,9\8\98ae43e9398610ec226c288dad7cabcb146933fc
+S
+#cloud-provider-payment-8001/pom.xml,b\c\bc1fe0cafe674249464645241014a2e2a6228958
+ä
+Zcloud-consumer-order7999/src/main/java/com/gontoy/springcloud/ConsumerApplication7999.java,a\d\adb712b59dbf55db96d22f4a9b2b398e54dc6617
+í
+bcloud-consumer-order7999/src/main/java/com/gontoy/springcloud/config/ApplicationContextConfig.java,0\0\000b4ecb6c8cb13aa34b73287b1ceb963ab16333
+ê
+`cloud-consumer-order7999/src/main/java/com/gontoy/springcloud/controller/ConsumerController.java,d\c\dca57e633399810f90cdf07335020c23c24666ca

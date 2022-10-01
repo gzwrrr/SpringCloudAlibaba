@@ -1,0 +1,9 @@
+server:
+  port: 7998
+
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 192.168.30.100:2181
