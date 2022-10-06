@@ -18,6 +18,8 @@
     <module>cloud-provider-payment-8002</module>
       <module>cloud-provider-payment-8003</module>
     <module>cloud-consumerzk-order7998</module>
+      <module>cloud-provider-payment-8004</module>
+    <module>cloud-consumercs-order-7997</module>
   </modules>
 
   <!--统一管理jar包版本-->
