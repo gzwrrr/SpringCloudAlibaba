@@ -22,3 +22,20 @@ Spring Cloud Alibaba Study
     - cloud-provider-payment-8002
     
 <br/><br/>
+
+2. OpenFeign 测试1
+    - cloud-consumer-order7996
+    - cloud-eureka-server7001
+    - cloud-eureka-server7002
+    - cloud-provider-payment-8001
+    - cloud-provider-payment-8002
+        
+<br/><br/>
+
+3. OpenFeign 测试2
+    - cloud-eureka-server7001
+    - cloud-consumer-feign-hystrix-order-7995
+    - cloud-provider-hystrix-payment-8005
+    
+<br/><br/>
+  

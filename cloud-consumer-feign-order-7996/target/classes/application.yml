@@ -1,0 +1,20 @@
+server:
+  port: 7996
+
+spring:
+  application:
+    name: cloud-consumer-order
+
+eureka:
+  client:
+    # 是否从EurekaServer抓取已有的注册信息，默认为true，单节点无所谓
+    # 集群必须设置为 true，才能配置ribbon使用
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://eureka7001.com:7011/eureka/,http://eureka7002.com:7012/eureka/
+
+
+logging:
+  level:
+    com.gontoy.springcloud.service.PaymentFeignService: debug
