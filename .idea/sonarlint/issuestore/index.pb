@@ -10,8 +10,6 @@ Qcloud-api-commons/src/main/java/com/gontoy/springcloud/entities/CommonResult.ja
 I
 cloud-api-commons/pom.xml,8\c\8cf05d42505ff49047085dd6dd68bf86e15d37a4
 O
-cloud-eureka-server7001/pom.xml,1\0\102e18b64a275ebd8dfa2168607577b0e641d1d7
-O
 cloud-eureka-server7002/pom.xml,6\9\69c2b01cc2ae9de37bc4bbb53c89f665afc20837
 |
 Lcloud-eureka-server7002/src/main/java/springcloud/EurekaApplication7002.java,2\c\2cba6e5f96a03b15ab906493902c22547a308735
@@ -65,11 +63,15 @@ S
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 W
 'cloud-consumer-feign-order-7996/pom.xml,c\3\c321c02f01034564cbb9c10692a310f02323abad
-_
-/cloud-consumer-feign-hystrix-order-7995/pom.xml,8\9\89487c36dda5af8796a28624148b7cf9b75abc85
 Œ
 \cloud-provider-payment-8001/src/main/java/com/gontoy/springcloud/service/PaymentService.java,4\5\452d154a44cbd371b697d278566d3cdad7139387
 Œ
 \cloud-consumer-feign-order-7996/src/main/java/com/gontoy/springcloud/config/FeignConfig.java,8\3\8346b83d1aa3b36d4461d1238f801c8704f93289
 ’
 bcloud-provider-payment-8001/src/main/java/com/gontoy/springcloud/controller/PaymentController.java,d\6\d6bd7ba4aa1fce4d4952a8de2e41813694676647
+•
+ecloud-consumer-feign-order-7996/src/main/java/com/gontoy/springcloud/service/PaymentFeignService.java,9\8\98bb3a2a799f18c17cf586bd4dd89cdfb55938b7
+¥
+ucloud-consumer-feign-hystrix-order-7995/src/main/java/com/gontoy/springcloud/controller/PaymentHystrixController.java,3\6\366e5a7cc91ca99ed466794dba3e193854e57c67
+¨
+xcloud-consumer-feign-hystrix-order-7995/src/main/java/com/gontoy/springcloud/service/Impl/PaymentHystrixServiceImpl.java,a\5\a5622ab52a91e11ca97fc30358bcca60fc7f2cc0

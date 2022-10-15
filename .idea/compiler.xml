@@ -20,6 +20,7 @@
         <module name="cloud-provider-payment-8003" />
         <module name="cloud-consumercs-order-7997" />
         <module name="cloud-consumer-feign-order-7996" />
+        <module name="cloud-consumer-hystrix-dashboard-9001" />
       </profile>
     </annotationProcessing>
   </component>
