@@ -75,3 +75,23 @@ ecloud-consumer-feign-order-7996/src/main/java/com/gontoy/springcloud/service/Pa
 ucloud-consumer-feign-hystrix-order-7995/src/main/java/com/gontoy/springcloud/controller/PaymentHystrixController.java,3\6\366e5a7cc91ca99ed466794dba3e193854e57c67
 ¨
 xcloud-consumer-feign-hystrix-order-7995/src/main/java/com/gontoy/springcloud/service/Impl/PaymentHystrixServiceImpl.java,a\5\a5622ab52a91e11ca97fc30358bcca60fc7f2cc0
+O
+cloud-eureka-server7001/pom.xml,1\0\102e18b64a275ebd8dfa2168607577b0e641d1d7
+‡
+Wcloud-eureka-server7001/src/main/java/com/gontoy/springcloud/EurekaApplication7001.java,9\8\98ae43e9398610ec226c288dad7cabcb146933fc
+]
+-cloud-consumer-hystrix-dashboard-9001/pom.xml,d\9\d9277a6790aeefa5f92e3e787c7e9069943dc2cd
+Ÿ
+ocloud-consumer-hystrix-dashboard-9001/src/main/java/com/gontoy/springcloud/HystrixDashboardApplication9001.java,d\0\d0f510d8af44e88e47b08de29ca33b63699b857e
+[
++cloud-provider-hystrix-payment-8005/pom.xml,a\0\a0c04e7422916273d1131d6dc7c969d9f8a2cc4d
+”
+dcloud-provider-hystrix-payment-8005/src/main/java/com/gontoy/springcloud/HystrixApplication8005.java,c\b\cb16188d334ab43341a7a3caf2ee621d55e2fb0a
+”
+dcloud-provider-hystrix-payment-8005/src/main/java/com/gontoy/springcloud/service/PaymentService.java,3\0\30991984099a561077bd9a5b88003fd8375fbb00
+_
+/cloud-consumer-feign-hystrix-order-7995/pom.xml,8\9\89487c36dda5af8796a28624148b7cf9b75abc85
+™
+icloud-consumer-feign-hystrix-order-7995/src/main/java/com/gontoy/springcloud/ConsumerApplication7995.java,a\2\a2cb32fe695aef1fe5a3c665b5b980981b963d01
+Ÿ
+ocloud-consumer-feign-hystrix-order-7995/src/main/java/com/gontoy/springcloud/service/PaymentHystrixService.java,8\0\804ef42542c460f7bb94ba2ee759c488d7772555

@@ -23,11 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861bb05-a4e4-492e-8000-0b8a5175673e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/java/com/gontoy/springcloud/HystrixDashboardApplication9001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-consumer-hystrix-dashboard-9001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8005/src/main/java/com/gontoy/springcloud/HystrixApplication8005.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8005/src/main/java/com/gontoy/springcloud/HystrixApplication8005.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9527/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9527/src/main/java/com/gontoy/springcloud/GatewayApplication9527.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9527/src/main/java/com/gontoy/springcloud/filter/GatewayFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-gateway-9527/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8005/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8005/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8005/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-hystrix-payment-8005/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
   </component>
-  <component name="JupyterTrust" id="e124421d-71d9-4b3f-869f-a2acec86d064" />
+  <component name="JupyterTrust" id="db953471-124e-4c2b-abf5-71eed3f00bfe" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -96,6 +99,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gontoy.springcloud.filter" />
       <recent name="com.gontoy.springcloud.service.Impl" />
       <recent name="com.gontoy.springcloud" />
       <recent name="springcloud" />
@@ -116,7 +120,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HystrixDashboardApplication9001">
+  <component name="RunManager" selected="Spring Boot.GatewayApplication9527">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -137,6 +141,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.ConsumerApplication7995" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication7996" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-consumer-feign-order-7996" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.ConsumerApplication7996" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -176,6 +187,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GatewayApplication9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-gateway-9527" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gontoy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.GatewayApplication9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HystrixApplication8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-provider-hystrix-payment-8005" />
       <extension name="coverage">
@@ -202,14 +226,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="PaymentApplication8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-provider-payment-8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gontoy.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.PaymentApplication8001" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -244,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.GatewayApplication9527" />
         <item itemvalue="Spring Boot.HystrixApplication8005" />
         <item itemvalue="Spring Boot.HystrixDashboardApplication9001" />
         <item itemvalue="Spring Boot.ConsumerApplication7995" />
         <item itemvalue="Spring Boot.PaymentApplication8002" />
-        <item itemvalue="Spring Boot.PaymentApplication8001" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +301,9 @@
       <workItem from="1665661123684" duration="13000" />
       <workItem from="1665756821385" duration="10089000" />
       <workItem from="1665818478402" duration="40000" />
-      <workItem from="1665822313864" duration="2940000" />
+      <workItem from="1665822313864" duration="3612000" />
+      <workItem from="1665910053875" duration="11000" />
+      <workItem from="1665928599592" duration="4118000" />
     </task>
     <servers />
   </component>
@@ -317,74 +337,76 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664385028252" />
-    <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1664387159037">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1665932387858">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="765" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664387159037" />
+    <state x="765" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665932387858" />
     <state x="2489" y="206" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1664992146308">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2489" y="206" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1664992146308" />
-    <state x="504" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1664437849209">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="504" y="459" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1665932329421">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="504" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664437849209" />
+    <state x="504" y="459" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665932329421" />
     <state x="741" y="288" key="FileChooserDialogImpl" timestamp="1665135634660">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="2661" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660887329647" />
     <state x="741" y="288" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665135634660" />
-    <state width="1409" height="264" key="GridCell.Tab.0.bottom" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.0.bottom" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
     <state width="1878" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1409" height="264" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.0.center" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.0.center" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888096" />
     <state width="1878" height="212" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1409" height="264" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.0.left" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.0.left" timestamp="1665930956020">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888096" />
     <state width="1878" height="212" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1409" height="264" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956020" />
     <state width="1409" height="245" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.0.right" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.0.right" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
     <state width="1878" height="212" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1409" height="264" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.1.bottom" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.1.bottom" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1409" height="264" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.1.center" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.1.center" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1409" height="264" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.1.left" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.1.left" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1409" height="264" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
-    <state width="1409" height="264" key="GridCell.Tab.1.right" timestamp="1665824317433">
+    <state width="1409" height="263" key="GridCell.Tab.1.right" timestamp="1665930956021">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1409" height="264" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665824317433" />
+    <state width="1409" height="263" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665930956021" />
     <state width="1409" height="245" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665592955251" />
     <state width="1877" height="351" key="GridCell.Tab.2.bottom" timestamp="1664437429689">
       <screen x="0" y="0" width="1920" height="1050" />
@@ -423,12 +445,12 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="585" y="197" width="769" height="625" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664386640928" />
-    <state x="322" y="190" key="new project wizard" timestamp="1665822415753">
+    <state x="322" y="190" key="new project wizard" timestamp="1665928648827">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="322" y="185" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664608392135" />
     <state x="2242" y="185" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660828025123" />
-    <state x="322" y="190" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665822415753" />
+    <state x="322" y="190" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665928648827" />
     <state x="2242" y="190" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665571201054" />
     <state x="623" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1660829164489">
       <screen x="0" y="0" width="1920" height="1050" />
