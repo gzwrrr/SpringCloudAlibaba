@@ -11,11 +11,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
  */
 @EnableDiscoveryClient
 @SpringBootApplication
-public class AlibabaProviderPaymentApplication9001 {
+public class AlibabaConsumerOrderApplication9101 {
 
     public static void main(String[] args) {
-        SpringApplication.run(AlibabaProviderPaymentApplication9001.class, args);
-        System.out.println("启动成功");
+        SpringApplication.run(AlibabaConsumerOrderApplication9101.class, args);
     }
 
 }

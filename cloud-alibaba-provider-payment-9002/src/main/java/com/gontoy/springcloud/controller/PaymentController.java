@@ -1,4 +1,4 @@
-package springcloud.controller;
+package com.gontoy.springcloud.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;

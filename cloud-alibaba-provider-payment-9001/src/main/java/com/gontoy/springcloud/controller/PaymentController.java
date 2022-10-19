@@ -1,4 +1,4 @@
-package com.atguigu.springcloud.alibaba.controller;
+package com.gontoy.springcloud.controller;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -19,7 +19,7 @@ public class PaymentController {
 
     @GetMapping(value = "/payment/nacos/{id}")
     public String getPayment(@PathVariable("id") Integer id) {
-        return "nacos registry, serverPort: " + serverPort + "\t id" + id;
+        return "getPayment | nacos registry | serverPort: " + serverPort + " | id:" + id;
     }
 }
 

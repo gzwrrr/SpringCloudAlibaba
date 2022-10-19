@@ -32,4 +32,13 @@ public class ConsumerController {
         log.info("ConsumerController create | payment:{}", payment);
         return restTemplate.postForObject(String.format("%s/payment/create", PAYMENT_URL), payment, CommonResult.class);
     }
+
+    /**
+     * 测试 zipkin
+     */
+    @GetMapping(value = "/zipkin")
+    public String zipkin() {
+        String result = restTemplate.getForObject(String.format("%s/payment/zipkin", PAYMENT_URL), String.class);
+        return "Hello zipkin";
+    }
 }

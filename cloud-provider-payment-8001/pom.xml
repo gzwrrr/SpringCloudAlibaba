@@ -12,6 +12,11 @@
     <artifactId>cloud-provider-payment-8001</artifactId>
 
     <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+
         <!--Eureka-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
