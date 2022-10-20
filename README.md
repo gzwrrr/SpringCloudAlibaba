@@ -76,3 +76,9 @@ Nacos 服务注册：
 - cloud-alibaba-consumer-order-9101
   
 <br/><br/>
+
+Nacos 单点配置中心：
+- 本地 Nacos
+- cloud-alibaba-config-nacos-client-3377
+  
+<br/><br/>

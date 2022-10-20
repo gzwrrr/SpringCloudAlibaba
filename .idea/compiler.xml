@@ -9,28 +9,29 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-eureka-server7001" />
         <module name="cloud-alibaba-provider-payment-9001" />
-        <module name="cloud-api-commons" />
         <module name="cloud-alibaba-provider-payment-9002" />
-        <module name="cloud-provider-hystrix-payment-8005" />
         <module name="cloud-eureka-server7002" />
         <module name="cloud-gateway-9527" />
         <module name="cloud-alibaba-consumer-order-9101" />
         <module name="cloud-consumerzk-order7998" />
         <module name="cloud-stream-rabbitmq-consumer-8008" />
-        <module name="cloud-consumer-feign-hystrix-order-7995" />
         <module name="cloud-stream-rabbitmq-consumer-8007" />
-        <module name="cloud-consumer-order7999" />
         <module name="cloud-provider-payment-8002" />
         <module name="cloud-config-center-3344" />
         <module name="cloud-provider-payment-8001" />
         <module name="cloud-provider-payment-8004" />
         <module name="cloud-provider-payment-8003" />
         <module name="cloud-consumercs-order-7997" />
+        <module name="cloud-consumer-hystrix-dashboard-9001" />
+        <module name="cloud-config-client-3366" />
+        <module name="cloud-api-commons" />
+        <module name="cloud-provider-hystrix-payment-8005" />
+        <module name="cloud-consumer-feign-hystrix-order-7995" />
+        <module name="cloud-consumer-order7999" />
         <module name="cloud-stream-rabbitmq-provider-8006" />
         <module name="cloud-consumer-feign-order-7996" />
-        <module name="cloud-consumer-hystrix-dashboard-9001" />
+        <module name="cloud-alibaba-config-nacos-client-3377" />
         <module name="cloud-config-client-3355" />
-        <module name="cloud-config-client-3366" />
       </profile>
     </annotationProcessing>
   </component>

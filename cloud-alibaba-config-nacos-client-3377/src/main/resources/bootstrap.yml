@@ -1,0 +1,22 @@
+server:
+  port: 3377
+
+spring:
+  application:
+    name: nacos-config-client
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        group: DEV_GROUP
+        namespace: 1f1da0d7-da89-4cd7-9b58-959dd8ca9ec7
+
+# 读取配置文件的规则
+# ${prefix}-${spring.profile.active}.${file-extension}
+# prefix：默认为 spring.application.name
+# spring.profile.active 是使用的环境，可以为空但是不建议
+# file-extension 是配置文件的后缀名（文件格式），支持 yaml 和 properties
+# 例如这里想要读取 Nacos 上的 dev 配置文件，那么 Nacos 就要命名为：nacos-config-client-dev.yaml
