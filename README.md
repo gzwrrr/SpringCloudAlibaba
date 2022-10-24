@@ -82,3 +82,11 @@ Nacos 单点配置中心：
 - cloud-alibaba-config-nacos-client-3377
   
 <br/><br/>
+
+Nacos 单点服务降级熔断：
+- 本地 Nacos
+- 本地 sentinel
+- cloud-alibaba-sentinel-service-3355
+  
+<br/><br/>
+

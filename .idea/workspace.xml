@@ -23,15 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4861bb05-a4e4-492e-8000-0b8a5175673e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/src/main/java/com/gontoy/springcloud/NacosConfigClientApplication3377.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/src/main/java/com/gontoy/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/target/classes/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/target/classes/com/gontoy/springcloud/NacosConfigClientApplication3377.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-alibaba-config-nacos-client-3377/target/classes/com/gontoy/springcloud/controller/ConfigClientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service-3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service-3355/src/main/java/com/gontoy/springcloud/SentinelServiceApplication3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service-3355/src/main/java/com/gontoy/springcloud/controller/FlowLimitController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-alibaba-sentinel-service-3355/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -68,7 +63,7 @@
     <setting file="file://$PROJECT_DIR$/cloud-provider-payment-8001/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer-8007/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
   </component>
-  <component name="JupyterTrust" id="9217053c-5a06-41ac-82d8-0c0e5c943102" />
+  <component name="JupyterTrust" id="e6a599d2-d5b1-45a5-8cc2-c7891c376811" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -128,14 +123,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.NacosConfigClientApplication3377">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.SentinelServiceApplication3355">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -311,6 +308,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelServiceApplication3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-alibaba-sentinel-service-3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gontoy.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.SentinelServiceApplication3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StreamMQApplication8006" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-stream-rabbitmq-provider-8006" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.StreamMQApplication8006" />
@@ -318,26 +328,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamMQApplication8008" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-stream-rabbitmq-consumer-8008" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gontoy.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.StreamMQApplication8008" />
+    <configuration name="StreamMQApplication8007" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer-8007" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gontoy.springcloud.StreamMQApplication8007" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SentinelServiceApplication3355" />
         <item itemvalue="Spring Boot.NacosConfigClientApplication3377" />
         <item itemvalue="Spring Boot.AlibabaProviderPaymentApplication9002" />
         <item itemvalue="Spring Boot.AlibabaConsumerOrderApplication9101" />
         <item itemvalue="Spring Boot.AlibabaProviderPaymentApplication9001" />
-        <item itemvalue="Spring Boot.StreamMQApplication8008" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +391,10 @@
       <workItem from="1666163865224" duration="2122000" />
       <workItem from="1666177810489" duration="9000" />
       <workItem from="1666177996185" duration="46000" />
-      <workItem from="1666252006145" duration="3433000" />
+      <workItem from="1666252006145" duration="3467000" />
+      <workItem from="1666270699170" duration="7000" />
+      <workItem from="1666496016743" duration="1964000" />
+      <workItem from="1666590662635" duration="2130000" />
     </task>
     <servers />
   </component>
@@ -410,13 +417,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="441" y="102" key="#Project_Structure" timestamp="1666162858714">
+    <state x="681" y="361" key="#Notifications" timestamp="1666590711312">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="681" y="361" key="#Notifications/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666590711312" />
+    <state x="441" y="102" key="#Project_Structure" timestamp="1666496373982">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="441" y="99" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664612267816" />
     <state x="2361" y="99" key="#Project_Structure/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660827958882" />
     <state x="441" y="102" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666162858714" />
     <state x="2361" y="102" key="#Project_Structure/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1664992717594" />
+    <state x="441" y="102" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1666496373982" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1664385028252">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -441,58 +453,66 @@
     <state x="2661" y="280" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660887329647" />
     <state x="741" y="288" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1665135634660" />
     <state x="2661" y="288" key="FileChooserDialogImpl/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666009908776" />
-    <state width="1339" height="299" key="GridCell.Tab.0.bottom" timestamp="1666256122922">
+    <state width="1339" height="393" key="GridCell.Tab.0.bottom" timestamp="1666505963898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
     <state width="1878" height="212" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1339" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122922" />
+    <state width="1339" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.0.center" timestamp="1666256122922">
+    <state width="1339" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963898" />
+    <state width="1339" height="393" key="GridCell.Tab.0.center" timestamp="1666505963897">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888096" />
     <state width="1878" height="212" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1339" height="299" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122922" />
+    <state width="1339" height="299" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.0.left" timestamp="1666256122922">
+    <state width="1339" height="393" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963897" />
+    <state width="1339" height="393" key="GridCell.Tab.0.left" timestamp="1666505963897">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888096" />
     <state width="1878" height="212" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1339" height="299" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122922" />
+    <state width="1339" height="299" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.0.right" timestamp="1666256122922">
+    <state width="1339" height="393" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963897" />
+    <state width="1339" height="393" key="GridCell.Tab.0.right" timestamp="1666505963898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
     <state width="1878" height="212" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660829425554" />
-    <state width="1339" height="299" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122922" />
+    <state width="1339" height="299" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.1.bottom" timestamp="1666256122923">
+    <state width="1339" height="393" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963898" />
+    <state width="1339" height="393" key="GridCell.Tab.1.bottom" timestamp="1666505963898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1339" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122923" />
+    <state width="1339" height="299" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.1.center" timestamp="1666256122922">
+    <state width="1339" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963898" />
+    <state width="1339" height="393" key="GridCell.Tab.1.center" timestamp="1666505963898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1339" height="299" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122922" />
+    <state width="1339" height="299" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.1.left" timestamp="1666256122922">
+    <state width="1339" height="393" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963898" />
+    <state width="1339" height="393" key="GridCell.Tab.1.left" timestamp="1666505963898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1339" height="299" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122922" />
+    <state width="1339" height="299" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
-    <state width="1339" height="299" key="GridCell.Tab.1.right" timestamp="1666256122923">
+    <state width="1339" height="393" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963898" />
+    <state width="1339" height="393" key="GridCell.Tab.1.right" timestamp="1666505963898">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1504" height="528" key="GridCell.Tab.1.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664613888097" />
-    <state width="1339" height="299" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256122923" />
+    <state width="1339" height="299" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666256228067" />
     <state width="1409" height="347" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1666116495987" />
+    <state width="1339" height="393" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1666505963898" />
     <state width="1877" height="351" key="GridCell.Tab.2.bottom" timestamp="1664437429689">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -530,13 +550,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="585" y="197" width="769" height="625" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664386640928" />
-    <state x="322" y="190" key="new project wizard" timestamp="1666252450893">
+    <state x="322" y="190" key="new project wizard" timestamp="1666496098089">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="322" y="185" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1664608392135" />
     <state x="2242" y="185" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@1920.0.1920.1050" timestamp="1660828025123" />
     <state x="322" y="190" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@0.0.1920.1080" timestamp="1666252450893" />
     <state x="2242" y="190" key="new project wizard/0.0.1920.1080/1920.0.1920.1080@1920.0.1920.1080" timestamp="1665571201054" />
+    <state x="322" y="190" key="new project wizard/0.0.1920.1080@0.0.1920.1080" timestamp="1666496098089" />
     <state x="623" y="233" width="672" height="698" key="search.everywhere.popup" timestamp="1666165810450">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

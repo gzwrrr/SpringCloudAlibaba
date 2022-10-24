@@ -125,15 +125,7 @@ P
 lcloud-stream-rabbitmq-provider-8006/src/main/java/com/gontoy/springcloud/service/MessageProviderService.java,e\1\e1ccb8dedd0ed5636bfdff8f246f51efa0b94ee6
 [
 +cloud-alibaba-provider-payment-9002/pom.xml,e\e\eebfc68600a072a2b61f39b24fd12ce0b870dcae
-Y
-)cloud-alibaba-consumer-order-9101/pom.xml,1\e\1e253b8ff67d0eca2c69d51732a079d67730d556
-£
-scloud-alibaba-provider-payment-9001/src/main/java/com/gontoy/springcloud/AlibabaProviderPaymentApplication9001.java,9\5\958c72b8d972df5b5871d7c4b8acf2ba2df3d3ea
-›
-kcloud-alibaba-consumer-order-9101/src/main/java/com/gontoy/springcloud/controller/OrderNacosController.java,e\6\e6f2f9d3a1f9b783a14f66c5401ea409de5b75ce
-Ÿ
-ocloud-alibaba-consumer-order-9101/src/main/java/com/gontoy/springcloud/AlibabaConsumerOrderApplication9101.java,d\a\dab980543656e43d27df8fec737065a2ae532ba8
-›
-kcloud-alibaba-consumer-order-9101/src/main/java/com/gontoy/springcloud/config/ApplicationContextConfig.java,f\6\f61cc0c2f1ad2bca37dbb4c5a7248d082499ade8
 £
 scloud-alibaba-provider-payment-9002/src/main/java/com/gontoy/springcloud/AlibabaProviderPaymentApplication9002.java,b\0\b0297569c00d620b26e3182763ebe64661bce482
+š
+jcloud-alibaba-provider-payment-9002/src/main/java/com/gontoy/springcloud/controller/PaymentController.java,0\e\0e3eaaac6fa314328bef53ba7aebc239a9a5fcee
